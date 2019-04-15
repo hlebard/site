@@ -15,7 +15,7 @@ p{
 	font-size: 16px;
 }
 h1{
-	text-align: center;
+	text-align: left;
 }
 header{
 	border-bottom: 1px solid #00bea6;
@@ -113,6 +113,10 @@ footer{
 	font-size: 12px;
 	color: #ffffff;
 }
+.work img{
+	width: 100%;
+	display: block;
+}
 
 @media (min-width: 768px){
 	.menu-trigger{
@@ -142,5 +146,21 @@ footer{
 	main{
 		margin-top: 50px;
 		margin-bottom: 50px;
+		overflow: hidden;
+	}
+	.home-left{
+		width: 50%;
+		float: left;
+		padding-right: 20px;
+		box-sizing: border-box;
+	}
+	.home-right{
+		width: 50%;
+		float: right;
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+	.work img{
+		width: 200px;
 	}
 }
