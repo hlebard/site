@@ -2,6 +2,7 @@ body{
 	margin:0;
 	font-family: 'Open Sans', sans-serif;
 	color: #333333;
+	background-color: #e5f5ff;
 }
 a{
 	color: #0077be;
@@ -19,6 +20,7 @@ h1{
 }
 header{
 	border-bottom: 1px solid #00bea6;
+	background-color: #ffffff;
 }
 nav{
 	display: none;
@@ -94,6 +96,7 @@ main{
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	min-height: 80vh;
 }
 .about-text{
 	width: 100%;
@@ -151,13 +154,14 @@ footer{
 	.home-left{
 		width: 50%;
 		float: left;
-		padding-right: 20px;
+		padding-right: 5%;
 		box-sizing: border-box;
+		text-align: justify;
 	}
 	.home-right{
 		width: 50%;
 		float: right;
-		padding-left: 20px;
+		padding-left: 5%;
 		box-sizing: border-box;
 	}
 	.work img{
