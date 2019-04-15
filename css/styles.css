@@ -113,10 +113,17 @@ footer{
 .copyright{
 	display: block;
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	color: #ffffff;
 }
 .work img{
+	width: 100%;
+	display: block;
+}
+.pitem{
+	margin-bottom: 70px;
+}
+.pitem img{
 	width: 100%;
 	display: block;
 }
@@ -166,5 +173,14 @@ footer{
 	}
 	.work img{
 		width: 200px;
+	}
+	.pitem{
+		width: 33.33%;
+		float: left;
+		box-sizing: border-box;
+		padding-left: 2%;
+		padding-right: 2%;
+		min-height: 570px;
+    	margin-bottom: 40px;
 	}
 }
