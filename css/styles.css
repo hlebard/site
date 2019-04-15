@@ -1,0 +1,146 @@
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+}
+a{
+	color: #0077be;
+	text-decoration: none;
+	transition: all 350ms;
+}
+a:hover{
+	color: #0018be;
+}
+p{
+	font-size: 16px;
+}
+h1{
+	text-align: center;
+}
+header{
+	border-bottom: 1px solid #00bea6;
+}
+nav{
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00bea6;
+    padding-top: 120px;
+    z-index: 1;
+}
+nav.open{
+	display: block;
+}
+nav a{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 30px;
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+nav a:hover{
+	color: #ffffff;
+}
+
+.menu-trigger{
+	position: relative;
+	z-index: 2;
+	background-color: #00bea6;
+	float: right;
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.mt{
+	background-color: #ffffff;
+	width: 35px;
+    height: 4px;
+    margin-bottom: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 350ms;
+}
+.menu-trigger.open{
+	background-color: #ffffff;
+}
+.menu-trigger.open .mt{
+	background-color: #00bea6;
+}
+
+.menu-trigger.open .mt-1{
+    transform: rotate(-45deg);
+    position: relative;
+    top: 12px;
+}
+.menu-trigger.open .mt-2{
+	display: none;
+}
+.menu-trigger.open .mt-3{
+	transform: rotate(45deg);
+}
+main{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.about-text{
+	width: 100%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+footer{
+	background-color: #00bea6;
+	padding: 25px;
+	background-color: 
+}
+.copyright{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+@media (min-width: 768px){
+	.menu-trigger{
+		display: none;
+	}
+	nav{
+		display: block;
+		position: relative;
+		float: right;
+		padding-top: 0;
+		background-color: #ffffff;
+	}
+	nav a{
+	    margin-bottom: 0;
+		display: inline-block;
+		font-size: 20px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    padding-top: 39px;
+	    padding-bottom: 39px;
+	    color: #00bea6;
+	}
+	nav a:hover{
+		background-color: #00bea6;
+		color: #ffffff;
+	}
+	main{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
